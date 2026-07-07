@@ -17,9 +17,10 @@ Repositori ini berisi dataset dan hasil analisis menggunakan WEKA.
 5. Memilih tab Classify.
 6. Mengklik tombol Choose, kemudian memilih algoritma TREE (J48) .
 7. Pada bagian Test Options, memilih metode Percentage Split sebesar 80%, sehingga 80% data digunakan sebagai data pelatihan (training) dan 20% sebagai data pengujian (testing).
-8. Mengklik tombol Start untuk menjalankan proses klasifikasi.
-9. Menunggu hingga proses klasifikasi selesai dan hasil ditampilkan pada bagian Classifier Output.
-10. Menganalisis hasil evaluasi yang dihasilkan WEKA, seperti:
+8. Mengklik tombol More options, lalu pada bagian Output predictions memilih PlainText agar hasil prediksi setiap instance data uji ditampilkan pada Classifier Output.
+9. Mengklik tombol Start untuk menjalankan proses klasifikasi.
+10. Menunggu hingga proses klasifikasi selesai dan hasil ditampilkan pada bagian Classifier Output.
+11. Menganalisis hasil evaluasi yang dihasilkan WEKA, seperti:
     - Correctly Classified Instances
     - Incorrectly Classified Instances
     - Kappa Statistic
